@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/EmployeeSchema" xmlns:tns="http://www.example.org/EmployeeSchema" elementFormDefault="qualified">
+	<complexType name="employeetype">
+		<sequence>
+			<element name="employee" type="tns:employeetype">
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="employeestype">
+		<sequence>
+			<element name="id" type="integer">
+			</element>
+			<element name="name" type="string">
+			</element>
+			<element name="age" type="integer">
+			</element>
+			<element name="salary" type="tns:mySalary">
+			</element>
+			<element name="emailid" type="tns:myEmail">
+			</element>
+			<element name="phonenum" type="integer">
+			</element>
+			<element name="designation" type="string">
+			</element>
+		</sequence>
+		<attribute name="mid" type="ID" use="required">
+		</attribute>
+	</complexType>
+	<simpleType name="mySalary">
+		<restriction base="integer">
+			<minInclusive value="50000"></minInclusive>
+			<maxInclusive value="200000"></maxInclusive>
+		</restriction>
+	</simpleType>
+	<simpleType name="myEmail">
+		<restriction base="string">
+			<pattern value="[^@]+@[^\.]+\..+"/>
+		</restriction>
+	</simpleType>
+</schema>
