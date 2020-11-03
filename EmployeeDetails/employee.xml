@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Employee.xslt"?>
+	<company>
+		<employee mid="M1">
+			<id>1</id>
+			<name>Amulya</name>
+			<age>27</age>
+			<salary>50000</salary>
+			<emailid>amulya@gmail.com</emailid>
+			<phonenum>9087353782</phonenum>
+			<designation>Software Developer</designation>
+		</employee>
+		<employee mid="M2">
+			<id>2</id>
+			<name>Anu</name>
+			<age>29</age>
+			<salary>55000</salary>
+			<emailid>anu@gmail.com</emailid>
+			<phonenum>9876543782</phonenum>
+			<designation>Web Developer</designation>
+		</employee>
+		<employee mid="M3">
+			<id>3</id>
+			<name>john</name>
+			<age>35</age>
+			<salary>70000</salary>
+			<emailid>john@gmail.com</emailid>
+			<phonenum>8742543782</phonenum>
+			<designation>Team Leader</designation>
+		</employee>
+		<employee mid="M4">
+			<id>4</id>
+			<name>Yashas</name>
+			<age>50</age>
+			<salary>10000</salary>
+			<emailid>yashas@gmail.com</emailid>
+			<phonenum>9872345679</phonenum>
+			<designation>Associate Project Manager</designation>
+		</employee>
+		<employee mid="M5">
+			<id>5</id>
+			<name>Ashok</name>
+			<age>60</age>
+			<salary>100000</salary>
+			<emailid>ashok@gmail.com</emailid>
+			<phonenum>8123456477</phonenum>
+			<designation>Managing Director</designation>
+		</employee>
+	</company>
