@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CHRIST>
+	<CS>
+		<STU-NAME>ABHINAV</STU-NAME>
+		<STU-BRANCH>MCA</STU-BRANCH>
+		<STU-COLLEGE>CHRIST</STU-COLLEGE>
+		<STU-EMAIL>abhinav@mca.christuniversity.in</STU-EMAIL>
+
+		<STU-NAME>TRILOH</STU-NAME>
+		<STU-BRANCH>MSC</STU-BRANCH>
+		<STU-COLLEGE>CHRIST</STU-COLLEGE>
+		<STU-EMAIL>triloh@msc.christuniversity.in</STU-EMAIL>
+
+		<STU-NAME>SANIA</STU-NAME>
+		<STU-BRANCH>MDS</STU-BRANCH>
+		<STU-COLLEGE>CHRIST</STU-COLLEGE>
+		<STU-EMAIL>sania@mca.christuniversity.in</STU-EMAIL>
+	</CS>
+</CHRIST>
+
