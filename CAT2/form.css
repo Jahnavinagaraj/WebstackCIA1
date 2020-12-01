@@ -1,0 +1,17 @@
+body
+{
+	background-color: pink;
+}
+h1{
+	margin-left: 500px;
+  	background: -webkit-linear-gradient(#FF0000, #000000);
+  	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+table,th,td
+    {
+     border:1px solid black;
+    }
+    th,td{
+        padding: 5px;
+    }
