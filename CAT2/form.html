@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Registration Form</title>
+		<link rel="html" href="form_dom.html">
+		<link rel="stylesheet" href="form.css">
+		<script type="text/javascript" src="formvali.js"></script>
+	</head>
+	<body onclick="checkSession()">
+		<form id="Registration" name="registration" onsubmit="return(validateForm())">
+		<h1>Gateways 2020</h1>
+		<h3>Registration form</h3>
+		<hr>
+		<div class="label">
+    		<input type="text" placeholder="Name" id="name" name="Name" onkeyup="validateName()" required=""><span style="color:red" id='nameerror'></span><br><br>  
+
+    		<input type="email" placeholder="Email" id="email" name="EMail" onkeyup="validateEmail()" onkeydown="validateEmail()" required ><span style="color:red" id='emailerror'></span><br><br>
+
+    		<input type="text" placeholder="Branch" id="branch" name="Branch" onkeyup="setColorBranch()" required=""><span style="color: red" id='brancherror'></span><br><br>
+
+    		<input type="text" placeholder="College/University name" id="collegename" name="College" onkeyup="setColorCollege()" required><span style="color:red" id='clgerror'></span><br><br> 
+
+    		<input type="text" placeholder="State" id="state" name="State" onkeyup="setColorState()" required><span style="color:red" id='stateerror'></span><br><br> 
+
+    		<textarea type="text" placeholder="Address" id="address" onkeyup="validateAddress()" onkeydown="validateAddress()" required></textarea><span id='remainingC'></span><span style="color:red" id="addresserror"></span><br><br>
+
+   			<input type="Number" placeholder="Age" id="agetxt" name="Age" onkeyup="validateAge()" required ><span style="color:red" id='ageerror'></span><br><br>
+
+   			<input type="tel" placeholder="Phone Number" id="phone" name="Phone" onkeyup="setColorPhone()" required><span style="color:red" id='phnerror'></span><br><br> 
+
+   			<input type="text" placeholder="User Name" name="Username" id="user" onkeyup="setColorUser()" required><span style="color: red" id='usererror'></span><br><br>
+
+   			<input type="password" placeholder="Password" name="Password" id="pass" onkeyup="setColorPassword()" required=""><span style="color: red" id='passerror'></span>
+   			</div>
+ 			<p><input type="submit" onclick="" value="Submit" name="submit">  
+    		</p>          
+		</form>
+		<footer>
+				<a href="form_dom.html">
+					<img src="next_page.png" alt="nextpageicon" width="30" height="30">
+				</a>
+		</footer>
+	</body>
+</html>
